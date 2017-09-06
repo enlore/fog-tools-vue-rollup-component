@@ -17,7 +17,7 @@ const plugins = [
         vue$: 'vue/dist/vue.common.js'
     }),
     vue({
-        css: './public/assets/css/component.css'
+        css: './dist/assets/css/component.css'
     }),
     buble({
         objectAssign: 'Object.assign'
@@ -54,7 +54,7 @@ const plugins = [
 
 const config = {
     entry: './src/index.js',
-    dest: './public/assets/js/index.js',
+    dest: './dist/assets/js/index.js',
     format: 'umd',
     sourceMap: true,
     plugins: plugins
@@ -71,7 +71,7 @@ if (isProduction) {
 if (isDevelopment) {
     config.plugins.push(livereload())
     config.plugins.push(serve({
-        contentBase: './public/',
+        contentBase: './dist/',
         port: 8080,
         open: true
     }))
