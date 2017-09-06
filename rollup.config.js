@@ -12,9 +12,6 @@ import butternut from 'rollup-plugin-butternut'
 import livereload from 'rollup-plugin-livereload'
 import serve from 'rollup-plugin-serve'
 
-//import re from 'rollup-plugin-re'
-//import gitVersion from 'rollup-plugin-git-version'
-
 const plugins = [
     alias({
         vue$: 'vue/dist/vue.common.js'
