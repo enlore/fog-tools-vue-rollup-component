@@ -1,8 +1,8 @@
-# my-project
+# Vue Component Template
 
-> A Vue.js project
+> A fog.haus project template
 
-## Build setup
+## Dev
 
 ### [yarn](https://yarnpkg.com) - recommend
 ``` bash
@@ -27,6 +27,21 @@ npm run dev
 # Build for production with minification
 npm run build
 ```
+
+## Build
+
+TODO. Need to explore and test different output targets for the build
+(`commonjs`, `umd`, `esmodule`, etc).
+
+### Notes
+
+You may run into an issue with `node-sass` (a `ENOENT` error). If so, just run
+`npm rebuild node-sass`.
+
+This build defaults to using `pug` and `sass`/`scss` for the html and css
+aspects of the component. If you don't care to use these tools, see the `lang`
+attribute present in the example `Stub.vue`. Remove the `lang` attribute or set
+it to your preference and add the consummate transpiler tool to the build.
 
 ## Reference
 
