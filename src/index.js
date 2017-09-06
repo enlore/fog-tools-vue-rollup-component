@@ -1,10 +1,9 @@
-import Vue from 'vue'
-import VueRouter from 'vue-router'
-import App from './App.vue'
+/* jshint esversion: 6, asi: true */
 
-Vue.use(VueRouter)
+import Vue from 'vue'
+import Component from './Component.vue'
 
 const app = new Vue({
   el: '#app',
-  render: h => h(App)
+  render: h => h(Component)
 })
