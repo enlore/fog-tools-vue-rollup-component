@@ -17,7 +17,7 @@ const plugins = [
         vue$: 'vue/dist/vue.common.js'
     }),
     vue({
-        css: './public/assets/css/app.css'
+        css: './public/assets/css/component.css'
     }),
     buble({
         objectAssign: 'Object.assign'
@@ -53,8 +53,8 @@ const plugins = [
 ]
 
 const config = {
-    entry: './src/app.js',
-    dest: './public/assets/js/app.js',
+    entry: './src/index.js',
+    dest: './public/assets/js/index.js',
     format: 'umd',
     sourceMap: true,
     plugins: plugins
