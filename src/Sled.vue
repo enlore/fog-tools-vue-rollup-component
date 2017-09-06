@@ -4,7 +4,7 @@
 </template>
 
 <script>
-    import Component from './Component.vue'
+    import Stub from './Stub.vue'
 
     export default {
         data () {
@@ -14,7 +14,7 @@
         },
 
         components: {
-            Component
+            Stub
         }
     }
 </script>

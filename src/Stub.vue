@@ -1,5 +1,5 @@
 <template lang="pug">
-.newComponent
+.componentStub
     h1 {{ msg }}
 </template>
 
