@@ -1,6 +1,6 @@
 <template lang="pug">
     .componentSled
-        component(msg="Hey buddy")
+        stub(msg="This is your component stub speaking")
 </template>
 
 <script>
